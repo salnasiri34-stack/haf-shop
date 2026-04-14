@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAF SHOP | المتجر الرسمي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #000000; --accent: #D4AF37; --bg: #fdfdfd; --text: #1a1a1a; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--bg); margin: 0; padding: 0; color: var(--text); }
+        
+        header { background: #fff; padding: 20px 5%; display: flex; justify-content: center; align-items: center; border-bottom: 2px solid #eee; position: sticky; top: 0; z-index: 1000; }
+        .brand-logo { font-size: 30px; font-weight: 900; color: var(--primary); text-decoration: none; letter-spacing: 2px; }
+
+        .announcement { background: var(--primary); color: white; text-align: center; padding: 10px; font-size: 13px; font-weight: 600; }
+
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 15px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; }
+
+        .item { background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #f0f0f0; transition: all 0.3s ease; display: flex; flex-direction: column; }
+        .item:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        .item img { width: 100%; height: 280px; object-fit: contain; padding: 15px; box-sizing: border-box; background: #fff; }
+        
+        .item-info { padding: 20px; flex-grow: 1; text-align: right; }
+        .item-category { color: #888; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 5px; display: block; }
+        .item-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; line-height: 1.5; color: #333; height: 48px; overflow: hidden; }
+        .item-price { font-size: 22px; font-weight: 900; color: var(--primary); }
+        .item-price span { font-size: 14px; margin-right: 4px; font-weight: 400; }
+        
+        .size-label { display: block; background: #f4f4f4; padding: 8px; border-radius: 6px; font-size: 12px; margin-top: 10px; color: #555; line-height: 1.6; }
+
+        .cta-button { background: #25D366; color: white; text-align: center; padding: 14px; text-decoration: none; font-weight: 700; font-size: 15px; margin: 0 20px 20px; border-radius: 8px; transition: 0.3s; }
+        .cta-button:hover { opacity: 0.9; }
+
+        footer { background: #fff; padding: 50px 20px; text-align: center; border-top: 1px solid #eee; margin-top: 60px; }
+        .support-info { font-size: 14px; color: #666; margin-top: 20px; line-height: 1.8; }
+    </style>
+</head>
+<body>
+
+<div class="announcement">
+    مدة التوصيل تتراوح من يوم إلى آخر • اطلب الآن عبر الواتساب
+</div>
+
+<header>
+    <a href="#" class="brand-logo">HAF SHOP</a>
+</header>
+
+<div class="container">
+    <div class="item">
+        <img src="p1.png">
+        <div class="item-info">
+            <span class="item-category">Nike</span>
+            <div class="item-title">Nike Dunk Low "Multi-Color"</div>
+            <div class="item-price">169 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p2.png">
+        <div class="item-info">
+            <span class="item-category">Nike</span>
+            <div class="item-title">Nike Dunk Low "Union LA Passport"</div>
+            <div class="item-price">169 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p3.png">
+        <div class="item-info">
+            <span class="item-category">Nike</span>
+            <div class="item-title">Nike Dunk Low "Panda" White & Black</div>
+            <div class="item-price">169 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p4.png">
+        <div class="item-info">
+            <span class="item-category">Adidas</span>
+            <div class="item-title">Adidas Adizero Shoes</div>
+            <div class="item-price">150 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p5.png">
+        <div class="item-info">
+            <span class="item-category">Crocs</span>
+            <div class="item-title">Crocs Batman Classic Clog</div>
+            <div class="item-price">120 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p6.png">
+        <div class="item-info">
+            <span class="item-category">Nike Walking</span>
+            <div class="item-title">Nike Motiva Walking Shoes</div>
+            <div class="item-price">120 <span>ريال</span></div>
+            <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p7.png">
+        <div class="item-info">
+            <span class="item-category">Al-Hilal FC</span>
+            <div class="item-title">Al-Hilal FC Red Special Edition Jersey</div>
+            <div class="item-price">80 <span>ريال</span></div>
+            <span class="size-label">المقاسات المتاحة: S, M فقط</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p8.png">
+        <div class="item-info">
+            <span class="item-category">Barcelona</span>
+            <div class="item-title">FC Barcelona Pre-Match Jersey</div>
+            <div class="item-price">70 <span>ريال</span></div>
+            <span class="size-label">المقاسات المتاحة: S, M فقط</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p9.png">
+        <div class="item-info">
+            <span class="item-category">Red Bull</span>
+            <div class="item-title">Red Bull Racing Winter Jacket</div>
+            <div class="item-price">130 <span>ريال</span></div>
+            <span class="size-label">المقاسات المتاحة: S, M فقط</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+
+    <div class="item">
+        <img src="p10.png">
+        <div class="item-info">
+            <span class="item-category">Red Bull</span>
+            <div class="item-title">Red Bull Racing Classic Cap</div>
+            <div class="item-price">30 <span>ريال</span></div>
+            <span class="size-label">المقاس: مقاس موحد (One Size)</span>
+        </div>
+        <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <strong style="font-size: 22px;">HAF SHOP</strong>
+        <div class="support-info">
+            للتواصل والطلب: 0505325030<br>
+            للملاحظات والاقتراحات: 0547552018 | 0509771931<br>
+            حقوق الطبع والنشر © 2026 HAF SHOP. جميع الحقوق محفوظة.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
