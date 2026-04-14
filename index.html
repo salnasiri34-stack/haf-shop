@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HAF SHOP | الموقع الرسمي</title>
+    <title>HAF SHOP | المتجر الرسمي</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #000; --bg: #fdfdfd; }
         body { font-family: 'Cairo', sans-serif; background-color: var(--bg); margin: 0; padding: 0; }
         header { background: #fff; padding: 20px; text-align: center; border-bottom: 2px solid #eee; position: sticky; top: 0; z-index: 1000; }
-        .brand-logo { font-size: 30px; font-weight: 900; color: var(--primary); text-decoration: none; letter-spacing: 2px; }
+        .brand-logo { font-size: 30px; font-weight: 900; color: var(--primary); text-decoration: none; }
         .announcement { background: var(--primary); color: white; text-align: center; padding: 10px; font-size: 13px; font-weight: 600; }
         .container { max-width: 1200px; margin: 30px auto; padding: 0 15px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; }
         .item { background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #f0f0f0; display: flex; flex-direction: column; transition: 0.3s; }
+        .item:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
         .item img { width: 100%; height: 280px; object-fit: contain; padding: 15px; background: #fff; }
         .item-info { padding: 20px; text-align: right; flex-grow: 1; }
-        .item-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; height: 48px; overflow: hidden; }
+        .item-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; height: 48px; overflow: hidden; color: #333; }
         .item-price { font-size: 22px; font-weight: 900; color: var(--primary); }
         .size-label { display: block; background: #f4f4f4; padding: 8px; border-radius: 6px; font-size: 12px; margin-top: 10px; color: #555; }
         .cta-button { background: #25D366; color: white; text-align: center; padding: 14px; text-decoration: none; font-weight: 700; margin: 0 20px 20px; border-radius: 8px; display: block; }
@@ -25,62 +26,116 @@
 <body>
 
     <div class="announcement">مدة التوصيل تتراوح من يوم إلى آخر • اطلب الآن عبر الواتساب</div>
-    
-    <header>
-        <a href="#" class="brand-logo">HAF SHOP</a>
-    </header>
+    <header><a href="#" class="brand-logo">HAF SHOP</a></header>
 
     <div class="container">
-        
         <div class="item">
-            <img src="https://images.clothes.com/b/nike-dunk-low-retro-white-black-2021-w-product-1.jpg" alt="Nike Dunk">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Nike Multi">
             <div class="item-info">
-                <div class="item-title">Nike Dunk Low Panda</div>
+                <div class="item-title">Nike Dunk Low "Multi-Color"</div>
                 <div class="item-price">169 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
 
         <div class="item">
-            <img src="https://images.clothes.com/b/nike-dunk-low-union-la-passport-pack-argon-product-1.jpg" alt="Nike Union">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Nike Union">
             <div class="item-info">
-                <div class="item-title">Nike Dunk Low Union LA</div>
+                <div class="item-title">Nike Dunk Low "Union LA Passport"</div>
                 <div class="item-price">169 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
 
         <div class="item">
-            <img src="https://images.clothes.com/b/adidas-adizero-adios-pro-3-solar-red-product-1.jpg" alt="Adidas">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Nike Panda">
             <div class="item-info">
-                <div class="item-title">Adidas Adizero Pro</div>
+                <div class="item-title">Nike Dunk Low "Panda" White & Black</div>
+                <div class="item-price">169 ريال</div>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Adidas Adizero">
+            <div class="item-info">
+                <div class="item-title">Adidas Adizero Running Shoes</div>
                 <div class="item-price">150 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
 
         <div class="item">
-            <img src="https://images.clothes.com/b/crocs-classic-clog-batman-product-1.jpg" alt="Crocs">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Crocs Batman">
             <div class="item-info">
-                <div class="item-title">Crocs Batman Classic</div>
+                <div class="item-title">Crocs Batman Classic Clog</div>
                 <div class="item-price">120 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
 
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Nike Motiva">
+            <div class="item-info">
+                <div class="item-title">Nike Motiva Walking Shoes</div>
+                <div class="item-price">120 ريال</div>
+                <span class="size-label">المقاسات: 36 إلى 45</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Al-Hilal Jersey">
+            <div class="item-info">
+                <div class="item-title">Al-Hilal FC Special Edition Jersey</div>
+                <div class="item-price">80 ريال</div>
+                <span class="size-label">المقاسات: S, M</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Barca Jersey">
+            <div class="item-info">
+                <div class="item-title">FC Barcelona Pre-Match Jersey</div>
+                <div class="item-price">70 ريال</div>
+                <span class="size-label">المقاسات: S, M</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Red Bull Jacket">
+            <div class="item-info">
+                <div class="item-title">Red Bull Racing Winter Jacket</div>
+                <div class="item-price">130 ريال</div>
+                <span class="size-label">المقاسات: S, M</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQ..." alt="Red Bull Cap">
+            <div class="item-info">
+                <div class="item-title">Red Bull Racing Classic Cap</div>
+                <div class="item-price">30 ريال</div>
+                <span class="size-label">مقاس موحد (One Size)</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
     </div>
 
     <footer>
         <strong>HAF SHOP</strong><br>
         <div style="font-size: 13px; color: #666; margin-top: 10px;">
-            للتواصل والطلب: 0505325030<br>
-            حقوق الطبع والنشر © 2026 HAF SHOP.
+            للتواصل والطلب: 0505325030 | للملاحظات: 0547552018 | 0509771931<br>
+            جميع الحقوق محفوظة © 2026 HAF SHOP.
         </div>
     </footer>
-
 </body>
 </html>
