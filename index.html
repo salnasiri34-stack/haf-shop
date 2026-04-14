@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HAF SHOP | المتجر الرسمي</title>
+    <title>HAF SHOP | الموقع الرسمي</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #000; --bg: #fdfdfd; }
         body { font-family: 'Cairo', sans-serif; background-color: var(--bg); margin: 0; padding: 0; }
         header { background: #fff; padding: 20px; text-align: center; border-bottom: 2px solid #eee; position: sticky; top: 0; z-index: 1000; }
-        .brand-logo { font-size: 30px; font-weight: 900; color: var(--primary); text-decoration: none; }
+        .brand-logo { font-size: 30px; font-weight: 900; color: var(--primary); text-decoration: none; letter-spacing: 2px; }
         .announcement { background: var(--primary); color: white; text-align: center; padding: 10px; font-size: 13px; font-weight: 600; }
         .container { max-width: 1200px; margin: 30px auto; padding: 0 15px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 25px; }
         .item { background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #f0f0f0; display: flex; flex-direction: column; transition: 0.3s; }
-        .item img { width: 100%; height: 280px; object-fit: contain; padding: 15px; box-sizing: border-box; }
+        .item img { width: 100%; height: 280px; object-fit: contain; padding: 15px; background: #fff; }
         .item-info { padding: 20px; text-align: right; flex-grow: 1; }
         .item-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; height: 48px; overflow: hidden; }
         .item-price { font-size: 22px; font-weight: 900; color: var(--primary); }
@@ -23,29 +23,17 @@
     </style>
 </head>
 <body>
+
     <div class="announcement">مدة التوصيل تتراوح من يوم إلى آخر • اطلب الآن عبر الواتساب</div>
-    <header><a href="#" class="brand-logo">HAF SHOP</a></header>
+    
+    <header>
+        <a href="#" class="brand-logo">HAF SHOP</a>
+    </header>
+
     <div class="container">
+        
         <div class="item">
-            <img src="HAF-SHOP/p1.png">
-            <div class="item-info">
-                <div class="item-title">Nike Dunk Low Multi-Color</div>
-                <div class="item-price">169 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
-            </div>
-            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
-        </div>
-        <div class="item">
-            <img src="HAF-SHOP/p2.png">
-            <div class="item-info">
-                <div class="item-title">Nike Dunk Low Union LA</div>
-                <div class="item-price">169 ريال</div>
-                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
-            </div>
-            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
-        </div>
-        <div class="item">
-            <img src="HAF-SHOP/p3.png">
+            <img src="https://images.clothes.com/b/nike-dunk-low-retro-white-black-2021-w-product-1.jpg" alt="Nike Dunk">
             <div class="item-info">
                 <div class="item-title">Nike Dunk Low Panda</div>
                 <div class="item-price">169 ريال</div>
@@ -53,22 +41,46 @@
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
+
         <div class="item">
-            <img src="HAF-SHOP/p4.png">
+            <img src="https://images.clothes.com/b/nike-dunk-low-union-la-passport-pack-argon-product-1.jpg" alt="Nike Union">
             <div class="item-info">
-                <div class="item-title">Adidas Adizero Shoes</div>
+                <div class="item-title">Nike Dunk Low Union LA</div>
+                <div class="item-price">169 ريال</div>
+                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
+        <div class="item">
+            <img src="https://images.clothes.com/b/adidas-adizero-adios-pro-3-solar-red-product-1.jpg" alt="Adidas">
+            <div class="item-info">
+                <div class="item-title">Adidas Adizero Pro</div>
                 <div class="item-price">150 ريال</div>
                 <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
             </div>
             <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
         </div>
+
+        <div class="item">
+            <img src="https://images.clothes.com/b/crocs-classic-clog-batman-product-1.jpg" alt="Crocs">
+            <div class="item-info">
+                <div class="item-title">Crocs Batman Classic</div>
+                <div class="item-price">120 ريال</div>
+                <span class="size-label">المقاسات: 36, 37, 38, 39, 40, 41, 42, 43, 44, 45</span>
+            </div>
+            <a href="https://wa.me/966505325030" class="cta-button">طلب عبر الواتساب</a>
+        </div>
+
     </div>
+
     <footer>
         <strong>HAF SHOP</strong><br>
         <div style="font-size: 13px; color: #666; margin-top: 10px;">
-            للتواصل والطلب: 0505325030 | للشكاوى: 0547552018<br>
-            جميع الحقوق محفوظة © 2026 HAF SHOP.
+            للتواصل والطلب: 0505325030<br>
+            حقوق الطبع والنشر © 2026 HAF SHOP.
         </div>
     </footer>
+
 </body>
 </html>
